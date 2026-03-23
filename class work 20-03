@@ -1,0 +1,15 @@
+numbers = [int(input()) for _ in range(15)]
+
+x = int(input("Enter number: "))
+
+count = 0
+result = []
+
+for n in numbers:
+    if n == x:
+        count += 1
+        if count > 1:
+            continue
+    result.append(n)
+
+print(result)
