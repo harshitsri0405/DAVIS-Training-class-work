@@ -1,0 +1,7 @@
+def check_vote(age):
+    if age >= 18:
+        return "Eligible"
+    return "Not Eligible"
+
+age = int(input("Enter age: "))
+print(check_vote(age)

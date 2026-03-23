@@ -1,0 +1,10 @@
+class Person:
+    def __init__(self, age):
+        self.age = age
+
+    def check(self):
+        return "Eligible" if self.age >= 18 else "Not Eligible"
+
+age = int(input("Enter age: "))
+p = Person(age)
+print(p.check())

@@ -1,0 +1,6 @@
+p = float(input())
+r = float(input())
+t = float(input())
+
+si = lambda p, r, t: (p*r*t)/100
+print(si(p, r, t))

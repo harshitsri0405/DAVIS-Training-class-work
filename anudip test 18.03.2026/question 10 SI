@@ -1,0 +1,9 @@
+
+def simple_interest(p, r, t):
+    return (p * r * t) / 100
+
+p = float(input())
+r = float(input())
+t = float(input())
+
+print(simple_interest(p, r, t))

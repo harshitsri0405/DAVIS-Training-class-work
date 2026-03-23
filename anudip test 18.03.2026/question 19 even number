@@ -1,0 +1,7 @@
+n = int(input("Enter N: "))
+
+nums = range(1, n+1)
+evens = filter(lambda x: x % 2 == 0, nums)
+
+for i in evens:
+    print(i, end=" ")

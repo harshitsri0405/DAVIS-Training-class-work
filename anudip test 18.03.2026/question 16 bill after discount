@@ -1,0 +1,8 @@
+
+def calculate_discount(p, d):
+    return p - (p * d / 100)
+
+price = float(input("Enter price: "))
+discount = float(input("Enter discount: "))
+
+print(calculate_discount(price, discount))

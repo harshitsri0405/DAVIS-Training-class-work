@@ -1,0 +1,4 @@
+# a shopkeeper wants to calcualte  total bill after discount
+price = float(input("Enter price: "))
+discount = float(input("Enter discount: "))
+print(price - (price * discount / 100))
