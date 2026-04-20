@@ -1,0 +1,4 @@
+import numpy as np
+#to create array
+numbers =np.array([20,50,46,78])
+print(numbers)
